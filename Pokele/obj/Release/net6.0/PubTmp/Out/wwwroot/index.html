@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokele</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<div>
+    <header class="main">
+        <a class="pageTitle" href="index.html">POKELE</a>
+        <a class="guessAllBtn" href="guessAll.html">GUESS THEM ALL</a>
+        <a class="login" href="login.html">LOGIN</a>
+    </header>
+    <div class="wrapper">
+    <div class="siteContainer">
+        <div  class="leftPart">
+            <div class="evoContainer">
+                <div class="tippTitle">EVOLUTIONS</div>
+                <div class="singleEvo">
+                    <img class="questionmark" src="images/questionmark.png">
+                </div>
+            </div>
+
+            <div class="languageContainer">
+                <div class="tippTitle">LANGUAGES</div>
+                <div class="languages">
+                    <img class="language" id="selected" value="en" src="images/languages/en.svg"></img>
+                    <img class="language" value="de" src="images/languages/de.svg"></img>
+                    <img class="language" value="fr" src="images/languages/fr.svg"></img>
+                    <img class="language" value="es" src="images/languages/es.svg"></img>
+                </div>
+            </div>
+        </div>
+
+        <div class="middlePart">
+            <div class="pokeName">???</div>
+            <div class="pokemonContainer">
+                <div class="spriteContainer">
+                <img class="pokemon" id="placeholder" src="images/placeholder.png">
+                <div class="pokemonShadow"></div>
+                </div>
+                <div class="oval"></div>
+            </div>
+
+            <div class="typeContainer">
+                <img class="type" src="images/UnknownType.png">
+                <img class="type" src="images/UnknownType.png">
+            </div>
+
+            <div class="input-container">
+                <input type="text" class="styled-input" required>
+            </div>
+            <div class="newButton">NEW</div>
+
+        </div>
+
+        <div  class="rightPart">
+            <div class="genContainer">
+                <div class="tippTitle">GENS</div>
+                <div class="gens">
+                    <img class="questionmark" src="images/questionmark.png">
+                </div>
+            </div>
+           </div>
+    </div>
+    <footer class="main">
+        <div class="nameContainer">
+            <div class="devName">IGOR MARTIC</div>
+            <div class="devName">DAVID TANASKOVIC</div>
+        </div>
+    </footer>
+</div>
+
+    <script src="scripts/languages.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/revealEvos.js"></script>
+    <script src="scripts/revealGens.js"></script>
+    <script src="scripts/revealTyping.js"></script>
+    <script src="scripts/revealSilhouette.js"></script>
+    <script src="scripts/reset.js"></script>
+    <script src="scripts/alternatingImages.js"></script>
+
+</body>
+</html>

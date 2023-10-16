@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokele", "Pokele\Pokele.csproj", "{697D7436-3B3F-4D57-AA3E-82556844C044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{697D7436-3B3F-4D57-AA3E-82556844C044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{697D7436-3B3F-4D57-AA3E-82556844C044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{697D7436-3B3F-4D57-AA3E-82556844C044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{697D7436-3B3F-4D57-AA3E-82556844C044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFFC4F76-BDE2-43BD-9247-970999464A93}
+	EndGlobalSection
+EndGlobal

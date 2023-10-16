@@ -1,0 +1,784 @@
+body {
+    background-image: url("images/PokemonBackground-1.jpg");
+    background-size: 100% 100%; /* Cover the entire width and height of the screen */
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Prevent scrolling of the background */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    height: 100vh;
+    background-color: #aa9bad;
+}
+
+body.allPokemon{
+    background-image: url("images/low-poly-grid-haikei.png");
+}
+
+:root {
+    --darkened-green: rgb(48, 184, 48);
+}
+
+footer,
+header{
+display: flex;
+height: 10vh;
+align-items: center;
+color: black;
+background-color: rgb(10, 211, 10);
+box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+header.main,
+footer.main{
+    background-color: transparent;
+    box-shadow: none;
+}
+
+footer{
+    margin-top: auto;
+    height: 12vh;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.nameContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.devName{
+    font-family: MarioKart;
+}
+
+.guessAllBtn,
+.pageTitle{
+    font-size: xxx-large;
+    text-align: center;
+    font-family: MarioKart;
+    margin-left: 1%;
+    color: black;
+    text-decoration: none;
+}
+
+.guessAllBtn{
+    font-size: xx-large;
+    margin-left: 2%;
+}
+
+.guessAllBtn:hover,
+.pageTitle:hover{
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: MarioKart;
+    src: url(Font/Mario-Kart-DS.ttf);
+  }
+  
+.siteContainer{
+    display: flex;
+    justify-content: space-evenly;
+    min-height: 86vh;
+    width: 100vw;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.middlePart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    width: 30vw;
+}
+
+.rightPart,
+.leftPart{
+    width: 30vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.questionmark{
+    width: 7vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.pokemonShadow {
+    content: "";
+    position: absolute;
+    width: 60%; /* Set the width to match the width of the image */
+    height: 15%; /* Set the height of the shadow */
+    border-radius: 50%; /* Make the shadow round */
+    background-color: rgba(0, 0, 0, 0.3); /* Shadow color with transparency */
+    filter: blur(10px); /* Apply a blur effect to the shadow */
+    bottom: -5%; /* Adjust as needed to position the shadow below the image */
+    z-index: -1; /* Place the shadow behind the image */
+    transform-origin: bottom;
+  }
+
+.hidden {
+    display: none;
+  }
+/*========================MiddlePart=====================================*/
+
+.pokeName{
+    width: 90%;
+    font-family: MarioKart;
+    text-align: center;
+    font-size: 200%;
+    padding: 10%;
+    border-radius: 5rem;
+    color: #69877E;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.newButton{
+    background-color: #9cc4bc;
+    font-family: MarioKart;
+    font-size: large;
+    padding: 5%;
+    color: white;
+    border-radius: 10%;
+    border: black 0.01rem solid;
+    user-select: none;
+}
+
+.newButton.disabled {
+    pointer-events: none; /* Prevent click events */
+}
+
+.newButton:hover{
+    background-color: #6ca494;
+    cursor: pointer;
+}
+
+.input-container {
+    position: relative;
+    width: 20vw;
+}
+
+.styled-input {
+    width: 100%;
+    height: 5vh;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+    font-size: x-large;
+}
+
+.styled-input:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+.oval {
+    z-index: 1;
+    width: 100%;
+    height: 30%; /* Set the height to a specific value */
+    border-radius: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Oval shadow */
+}
+
+
+.pokemonContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-height: 50%;
+    max-width: 100%;
+    width: 100%;
+    height: 30%;
+    padding-top: 25%;
+}
+
+.pokemon{
+    bottom: 0vh;
+    position: absolute;
+    user-select: none;
+    -webkit-user-drag: none;
+    transform-origin: bottom;
+}
+
+.pokemon#placeholder{
+    bottom: 0%;
+    display: block;
+    height: 100%;
+    width: auto;
+    margin-bottom: 0;
+}
+
+.spriteContainer{
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 20%;
+    left: 14%;
+    align-items: center;
+    width: 70%;
+    height: 50%;
+}
+
+.typeContainer{
+    display: flex;
+    width: 30vw;
+    justify-content: space-evenly;
+    height: 5vh;
+}
+
+.type{
+    width: 8vw;
+    height: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+/*========================================LeftPart============================*/
+.evoContainer{
+    background-color: rgba(255, 255, 255, 1);
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5%;
+}
+
+.evoStage{
+    transform: scale(1.2);
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.evoStage.marked{
+    border: #69877E 0.1rem solid;
+    border-radius: 50%;
+    padding: 2%;
+}
+
+.evoStage.placeholder{
+    height: 70%;
+}
+
+.tippTitle{
+    font-size: xx-large;
+    color: #69877E;
+    font-family: MarioKart;
+    text-align: center;
+    padding: 1%;
+}
+
+.singleEvo{
+    height: 15vh;
+    width: 90%;
+    border-top: rgb(164, 166, 197) 0.05rem solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1%;
+}
+
+/*=================================rightPart=======================*/
+.languageContainer,
+.genContainer{
+    background-color: rgba(255, 255, 255, 1);
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5%;
+}
+
+.languageContainer{
+    margin-top: 2%;
+    width: 60%;
+}
+
+.languages,
+.gens{
+    border-top: rgb(164, 166, 197) 0.05rem solid;
+    width: 90%;
+    height: fit-content;
+    margin: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.gen{
+    width: 40%;
+    height: auto;
+    margin-top: 2%;
+    user-select: none;
+    -webkit-user-drag: none;
+    box-shadow: 0px 2px 38px rgba(0, 0, 0, 0.2);
+}
+
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language{
+    box-shadow: 0px 2px 38px rgba(0, 0, 0, 0.2);
+    user-select: none;
+    -webkit-user-drag: none;
+    width: 40%;
+    height: auto;
+    margin: 2%;
+}
+
+.language:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.language#selected{
+    border: #6ca494 0.3rem solid;
+}
+
+/*====================================================GuessThemAll=========================================*/
+.genGuess{
+    width: 31vw;
+    height: fit-content;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 2%;
+    border-radius: 15px;
+    padding: 1%;
+    box-shadow: 0px 2px 38px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.genName{
+    font-family: MarioKart;
+    font-size: 2vw;
+    position: absolute;
+    top: 2%;
+    z-index: 3;
+}
+
+.pixelContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 3;
+    width: 100%;
+    margin-top: 7%;
+    justify-content: flex-start;
+    padding-bottom: 2%;
+}
+
+.pixelSprite {
+    user-select: none;
+    width: 11%;
+    z-index: 3;
+    height: auto;
+    margin-right: -2%;
+    margin-bottom: -2%;
+}
+
+.pixelSprite.unknown{
+    width: 5%;
+    margin-bottom: 0;
+    padding: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.siteContainer.guessThemAll{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 15vh;
+    justify-content: space-evenly;
+}
+
+.top-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9980; /* Set a high z-index to ensure it's above other content */
+  }
+
+header.guessThemAll{
+    background-color: rgb(10, 223, 10);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.guessInput{
+    margin-top: auto;
+    margin-bottom: auto;
+    border: none;
+    border-radius: 15px;
+    padding: 1%;
+    width: 30%;
+}
+
+.guessContainer{
+    justify-content: space-evenly;
+    width: 50vw;
+    display: flex;
+    height: 100%;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(10, 223, 10);
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    padding-bottom: 0.2%;
+    z-index: 5;
+}
+
+.recordText{
+    font-family: MarioKart;
+  }
+
+  .additionalButtons{
+    border-bottom-left-radius: 20px;
+    background-color: rgb(10, 223, 10);
+    box-shadow: -1px 2px 3px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10vw;
+  }
+
+.allButtons{
+    position: fixed;
+    justify-content: space-evenly;
+    width: 50vw;
+    display: flex;
+    height: 5vh;
+    position: relative;
+}
+
+.silhouetteBtn{
+    border: none;
+    background-color: rgb(10, 223, 10);
+    font-size: 0.9vw;
+    color: black;
+    border-left: 0.1rem solid green;
+    border-right: 0.1rem solid green;
+    width: 20%;
+}
+
+.silhouetteBtn:hover{
+    cursor: pointer;
+    font-size: 1vw;
+}
+
+.timer{
+    width: 20%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+}
+
+.language-checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 50px;
+  }
+
+  .label-checked {
+    border-bottom: 0.15rem solid rgb(10, 211, 10);
+  }
+
+  label {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 25%;
+    margin-right: 1%;
+    height: 70%;
+    border-left: 0.1rem solid gray;
+    font-size: 1vw;
+  }
+  
+  .language-label{
+    margin-bottom: auto;
+    margin-top: auto;
+  }
+  
+  
+  /* Hide the default checkbox visually */
+  .language-checkbox::-webkit-check-mark,
+  .language-checkbox::-moz-check-mark,
+  .language-checkbox::-ms-check-mark {
+    display: none;
+  }
+  
+  .checkboxContainer{
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 2vw;
+    border: 0.2rem solid rgb(10, 211, 10);
+    border-bottom-right-radius: 20px;
+    left: 97%;
+    padding-right: 1%;
+    width: 20vw;
+    height: 80%;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .bufferContainer{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+  }
+
+  .gameModeTitle{
+    width: 60%;
+    font-size: 3vw;
+    background-color: var(--darkened-green);
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 15vh;
+    border-radius: 15px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    font-family: MarioKart;
+  }
+
+  .modes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    margin-top: 5%;
+    justify-content: space-evenly;
+    height: fit-content;
+  }
+
+  .mainMode,
+  .subMode{
+    width: 30%;
+    text-align: center;
+    background-color: var(--darkened-green);
+    height: 10vh;
+    margin-bottom: 2%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+    font-family: MarioKart;
+    color: black;
+}
+
+.mainMode:hover,
+.subMode:hover{
+    background-color: rgb(42, 158, 42);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.mainMode{
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .loader {
+    border: 1vw solid transparent;
+    border-top: 1vw solid var(--darkened-green); /* Use the darker lime green color */
+    border-radius: 50%;
+    width: 10vw;
+    height: 10vw;
+    animation: spin 1s linear infinite;
+  }
+
+  .loadertext{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 2%;
+  }
+  
+  .guessed{
+    animation: guess 0.2s forwards;
+  }
+
+  @keyframes guess{
+    0%{
+        transform: scale(1.5);
+    }
+    50%
+    {
+        transform: scale(1.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+  }
+
+  .guessedAll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 40vh;
+    width: 40vw;
+    border-radius: 10px;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .congrats{
+    font-family: MarioKart;
+    font-size: 3vw;
+    text-align: center;
+    margin: 2%; 
+    margin-top: 5%;
+  }
+
+  .resetButton{
+    background-color: var(--darkened-green);
+    font-family: MarioKart;
+    font-size: 2vw;
+    text-align: center; 
+    padding: 2%;
+    margin-bottom: 3%;
+    border-radius: 10px;
+  }
+
+  .resetButton:hover{
+    transform: scale(1.1);
+    background-color:  rgb(35, 122, 35);
+    cursor: pointer;
+  }
+  
+  /*========================================login==========================*/
+  .login{
+    margin-left: auto;
+    margin-right: 2%;
+    font-family: MarioKart;
+    font-size: 1.7vw;
+    color: black;
+    text-decoration: none;
+  }
+
+  .loginContainer{
+    background-color: white;
+    width: 30vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 60vh;
+    border-radius: 15px;
+  }
+
+  .loginLabel{
+    margin-right: 0%;
+    border-left: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15%;
+    width: 100%;
+  }
+
+  .username,
+  .password{
+    width: 100%;
+  }
+
+  .confirm{
+    background-color: var(--darkened-green);
+    padding: 20%;
+    text-align: center;
+    font-size: 1vw;
+    border-radius: 15px;
+  }
+
+  .register{
+    text-decoration: none;
+    color: blueviolet;
+ }
+
+  .loginRelatedButtons{
+    height: 20%;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+  }
+
+
+  
+
+
+  

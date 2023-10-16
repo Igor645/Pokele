@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body class="allPokemon">
+    <audio id="myAudio" controls>
+        <source src="audio/interface-button-154180.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <div class="bufferContainer">
+        <div class="loader"></div>
+        <div class="loadertext">Loading</div>
+    </div>
+
+    <div class="top-div">
+        <header class="header guessThemAll">
+            <a class="pageTitle" href="index.html">POKELE</a>
+            <a class="login" href="login.html">LOGIN</a>
+        </header>
+        <div class="allButtons">
+        <div class="guessContainer">
+            <input class="guessInput" type="text">
+            <button class="silhouetteBtn">Show Silhouette</button>
+            <div class="timer">Time: 00:00:00</div>   
+        </div>
+
+        <div class="checkboxContainer">
+        <label>
+            <input type="checkbox" class="language-checkbox" value="en" checked> 
+            <div class="language-label">English</div> 
+          </label>
+          <label>
+            <input type="checkbox" class="language-checkbox" value="de" checked> 
+            <div class="language-label">German</div>  
+          </label>
+          <label>
+            <input type="checkbox" class="language-checkbox" value="fr" checked> 
+            <div class="language-label">French</div>  
+          </label>
+          <label>
+            <input type="checkbox" class="language-checkbox" value="es" checked> 
+            <div class="language-label">Spanish</div>  
+          </label>
+        </div>
+
+        <div class="additionalButtons">
+            <div class="recordText">RECORD:</div>
+            <div class="recordContainer">00:00:00</div>
+        </div>
+        </div>
+    </div>
+<div class="wrapper">
+    <div class="siteContainer guessThemAll">
+    <div id="genCollumn" class="genCollumn1">
+        <div class="genGuess" id="gen-i">
+            <div class="genName">gen-i</div>
+            <div class="pixelContainer"></div>
+        </div>
+        <div class="genGuess" id="gen-ii">
+            <div class="genName">gen-ii</div>
+            <div class="pixelContainer"></div>
+        </div>
+        <div class="genGuess" id="gen-iii">
+            <div class="genName">gen-iii</div>
+            <div class="pixelContainer"></div>
+        </div>
+    </div>
+    <div id="genCollumn" class="genCollumn2">
+        <div class="genGuess" id="gen-iv">
+            <div class="genName">gen-iv</div>
+            <div class="pixelContainer"></div>
+        </div>
+        <div class="genGuess" id="gen-v">
+            <div class="genName">gen-v</div>
+            <div class="pixelContainer"></div>
+        </div>
+        <div class="genGuess" id="gen-vi">
+            <div class="genName">gen-vi</div>
+            <div class="pixelContainer"></div>
+        </div>
+    </div>
+    <div id="genCollumn" class="genCollumn3">
+        <div class="genGuess" id="gen-vii">
+            <div class="genName">gen-vii</div>
+            <div class="pixelContainer"></div>
+        </div>
+        <div class="genGuess" id="gen-viii">
+            <div class="genName">gen-viii</div>
+            <div class="pixelContainer"></div>
+        </div>
+        <div class="genGuess" id="gen-ix">
+            <div class="genName">gen-ix</div>
+            <div class="pixelContainer"></div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="nameContainer">
+        <div class="devName">IGOR MARTIC</div>
+        <div class="devName">DAVID TANASKOVIC</div>
+    </div>
+</footer>
+</div>
+
+    <script src="scripts/guessAll/getPokemon.js"></script>
+</body>
+</html>

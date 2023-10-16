@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\.vscode\\settings.json",
+      "PackagePath": "staticwebassets\\.vscode\\settings.json"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\Font\\Mario-Kart-DS.ttf",
+      "PackagePath": "staticwebassets\\Font\\Mario-Kart-DS.ttf"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\audio\\button-124476.mp3",
+      "PackagePath": "staticwebassets\\audio\\button-124476.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\audio\\cork-85200.mp3",
+      "PackagePath": "staticwebassets\\audio\\cork-85200.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\audio\\interface-button-154180.mp3",
+      "PackagePath": "staticwebassets\\audio\\interface-button-154180.mp3"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-i-1.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-i-1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-i-2.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-i-2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-i-3.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-i-3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-i-4.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-i-4.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-ii-1.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-ii-1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-ii-2.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-ii-2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-ii-3.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-ii-3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-iii-1.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-iii-1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-iii-2.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-iii-2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-iii-3.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-iii-3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-iv-1.jpg",
+      "PackagePath": "staticwebassets\\genImages\\generation-iv-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-iv-2.jpg",
+      "PackagePath": "staticwebassets\\genImages\\generation-iv-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-iv-3.png",
+      "PackagePath": "staticwebassets\\genImages\\generation-iv-3.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-ix-1.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-ix-1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-ix-2.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-ix-2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-v-1.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-v-1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-v-2.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-v-2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-v-3.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-v-3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-v-4.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-v-4.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-vi-1.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-vi-1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-vi-2.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-vi-2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-vii-1.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-vii-1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-vii-2.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-vii-2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-vii-3.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-vii-3.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-vii-4.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-vii-4.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-viii-1.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-viii-1.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\genImages\\generation-viii-2.jfif",
+      "PackagePath": "staticwebassets\\genImages\\generation-viii-2.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\guessAll.html",
+      "PackagePath": "staticwebassets\\guessAll.html"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\PokemonBackground-1.jpg",
+      "PackagePath": "staticwebassets\\images\\PokemonBackground-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\UnknownType.png",
+      "PackagePath": "staticwebassets\\images\\UnknownType.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\images.png",
+      "PackagePath": "staticwebassets\\images\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\languages\\de.svg",
+      "PackagePath": "staticwebassets\\images\\languages\\de.svg"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\languages\\en.svg",
+      "PackagePath": "staticwebassets\\images\\languages\\en.svg"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\languages\\es.svg",
+      "PackagePath": "staticwebassets\\images\\languages\\es.svg"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\languages\\fr.svg",
+      "PackagePath": "staticwebassets\\images\\languages\\fr.svg"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\low-poly-grid-haikei.png",
+      "PackagePath": "staticwebassets\\images\\low-poly-grid-haikei.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\placeholder.png",
+      "PackagePath": "staticwebassets\\images\\placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\questionmark.png",
+      "PackagePath": "staticwebassets\\images\\questionmark.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\questionmark.svg",
+      "PackagePath": "staticwebassets\\images\\questionmark.svg"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\images\\unknownPokemon.png",
+      "PackagePath": "staticwebassets\\images\\unknownPokemon.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\register.html",
+      "PackagePath": "staticwebassets\\register.html"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\alternatingImages.js",
+      "PackagePath": "staticwebassets\\scripts\\alternatingImages.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\guessAll\\getPokemon.js",
+      "PackagePath": "staticwebassets\\scripts\\guessAll\\getPokemon.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\guessAll\\guess.js",
+      "PackagePath": "staticwebassets\\scripts\\guessAll\\guess.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\guessAll\\loadData.js",
+      "PackagePath": "staticwebassets\\scripts\\guessAll\\loadData.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\guessAll\\modeSelect.js",
+      "PackagePath": "staticwebassets\\scripts\\guessAll\\modeSelect.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\guessAll\\timer.js",
+      "PackagePath": "staticwebassets\\scripts\\guessAll\\timer.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\index.js",
+      "PackagePath": "staticwebassets\\scripts\\index.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\languages.js",
+      "PackagePath": "staticwebassets\\scripts\\languages.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\login\\login.js",
+      "PackagePath": "staticwebassets\\scripts\\login\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\login\\register.js",
+      "PackagePath": "staticwebassets\\scripts\\login\\register.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\reset.js",
+      "PackagePath": "staticwebassets\\scripts\\reset.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\revealEvos.js",
+      "PackagePath": "staticwebassets\\scripts\\revealEvos.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\revealGens.js",
+      "PackagePath": "staticwebassets\\scripts\\revealGens.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\revealSilhouette.js",
+      "PackagePath": "staticwebassets\\scripts\\revealSilhouette.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\scripts\\revealTyping.js",
+      "PackagePath": "staticwebassets\\scripts\\revealTyping.js"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\bug.png",
+      "PackagePath": "staticwebassets\\typeImages\\bug.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\dark.png",
+      "PackagePath": "staticwebassets\\typeImages\\dark.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\dragon.png",
+      "PackagePath": "staticwebassets\\typeImages\\dragon.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\electric.png",
+      "PackagePath": "staticwebassets\\typeImages\\electric.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\fairy.png",
+      "PackagePath": "staticwebassets\\typeImages\\fairy.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\fighting.png",
+      "PackagePath": "staticwebassets\\typeImages\\fighting.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\fire.png",
+      "PackagePath": "staticwebassets\\typeImages\\fire.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\flying.png",
+      "PackagePath": "staticwebassets\\typeImages\\flying.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\ghost.png",
+      "PackagePath": "staticwebassets\\typeImages\\ghost.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\grass.png",
+      "PackagePath": "staticwebassets\\typeImages\\grass.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\ground.png",
+      "PackagePath": "staticwebassets\\typeImages\\ground.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\ice.png",
+      "PackagePath": "staticwebassets\\typeImages\\ice.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\normal.png",
+      "PackagePath": "staticwebassets\\typeImages\\normal.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\poison.png",
+      "PackagePath": "staticwebassets\\typeImages\\poison.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\psychic.png",
+      "PackagePath": "staticwebassets\\typeImages\\psychic.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\rock.png",
+      "PackagePath": "staticwebassets\\typeImages\\rock.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\steel.png",
+      "PackagePath": "staticwebassets\\typeImages\\steel.png"
+    },
+    {
+      "Id": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\wwwroot\\typeImages\\water.png",
+      "PackagePath": "staticwebassets\\typeImages\\water.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Pokele.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Pokele.props",
+      "PackagePath": "build\\Pokele.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Pokele.props",
+      "PackagePath": "buildMultiTargeting\\Pokele.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Pokele.props",
+      "PackagePath": "buildTransitive\\Pokele.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
