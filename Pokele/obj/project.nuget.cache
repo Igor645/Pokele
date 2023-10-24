@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PLeFcaCG+Z4l/SJ+atte8RBR1YACV+Zftc+IhGYIa1mjLZp9KuYOhSWeLu2kA5R/hOMIt0b5m4OUPUVHhZVYyA==",
+  "dgSpecHash": "0Ph+KaYXG/yfRQElU5vM7PBVlCRXR4779uLr9Ym4ge61PB0KQ2hVkGd1C8FgAmjQxWESG8LWS58gZ9BKqHpnOg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj",
+  "projectFilePath": "C:\\Schule\\BBBaden\\Lernatelier3\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Igor Martic\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Igor Martic\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

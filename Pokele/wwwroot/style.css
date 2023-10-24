@@ -144,7 +144,7 @@ footer.main{
 
 footer{
     margin-top: auto;
-    height: 12vh;
+    height: fit-content;
     background-color: var(--guess-color);
     display: flex;
     justify-content: space-evenly;

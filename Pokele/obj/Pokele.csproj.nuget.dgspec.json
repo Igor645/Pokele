@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj": {}
+    "C:\\Schule\\BBBaden\\Lernatelier3\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj": {
+    "C:\\Schule\\BBBaden\\Lernatelier3\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj",
+        "projectUniqueName": "C:\\Schule\\BBBaden\\Lernatelier3\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj",
         "projectName": "Pokele",
-        "projectPath": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj",
+        "projectPath": "C:\\Schule\\BBBaden\\Lernatelier3\\PokeleAPI - Kopie\\Pokele\\Pokele.csproj",
         "packagesPath": "C:\\Users\\Igor Martic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Igor Martic\\Dropbox\\PC\\Desktop\\PokeleRelated\\PokeleAPI - Kopie\\Pokele\\obj\\",
+        "outputPath": "C:\\Schule\\BBBaden\\Lernatelier3\\PokeleAPI - Kopie\\Pokele\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Igor Martic\\AppData\\Roaming\\NuGet\\NuGet.Config",
